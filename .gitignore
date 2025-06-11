@@ -3,7 +3,6 @@
 ###############################################################################
 /build/                  # Lake build artefacts
 /.lake/                  # Lake’s cache (package manifests, metainfo)
-/lake-manifest.json
 *.olean                  # compiled Lean files
 
 ###############################################################################
