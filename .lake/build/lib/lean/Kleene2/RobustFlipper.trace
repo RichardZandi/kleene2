@@ -1,0 +1,31 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=/Users/richardzandi/kleene2/.lake/packages/Cli/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/batteries/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/Qq/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/aesop/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/importGraph/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/plausible/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/mathlib/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/godelnumbering/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/build/lib/lean /Users/richardzandi/.elan/toolchains/leanprover--lean4---v4.20.0/bin/lean -DautoImplicit=false /Users/richardzandi/kleene2/Kleene2/RobustFlipper.lean -R /Users/richardzandi/kleene2 -o /Users/richardzandi/kleene2/.lake/build/lib/lean/Kleene2/RobustFlipper.olean -i /Users/richardzandi/kleene2/.lake/build/lib/lean/Kleene2/RobustFlipper.ilean -c /Users/richardzandi/kleene2/.lake/build/ir/Kleene2/RobustFlipper.c --json",
+   "level": "trace"},
+  {"message":
+   "/Users/richardzandi/kleene2/Kleene2/RobustFlipper.lean:168:0: -- Found 0 errors in 10 declarations (plus 229 automatically generated ones) in the current file with 15 linters\n\n\n-- All linting checks passed!",
+   "level": "info"}],
+ "inputs":
+ [["Kleene2.RobustFlipper:deps",
+   [["deps",
+     [["Kleene2/Kleene2:extraDep", [["@Kleene2:extraDep", "1723"]]],
+      ["import oleans",
+       [["Mathlib.Computability.Partrec:olean",
+         [["Mathlib.Computability.Partrec:deps", "15206199932306137051"],
+          ["/Users/richardzandi/kleene2/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Computability/Partrec.olean",
+           "10729924847994132739"]]],
+        ["Mathlib.Computability.Primrec:olean",
+         [["Mathlib.Computability.Primrec:deps", "15005026726680477970"],
+          ["/Users/richardzandi/kleene2/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Computability/Primrec.olean",
+           "3549641494788880141"]]]]]]],
+    ["libs",
+     [["import dynlibs", "1723"],
+      ["package external libraries", "1723"],
+      ["module dynlibs", "1723"],
+      ["module plugins", "1723"]]]]],
+  ["Lean 4.20.0, commit 77cfc4d1a4f6ef6651792b781eaa6676b4f3f060",
+   "16311077432335102250"],
+  ["Module.leanArgs: #[-DautoImplicit=false]", "9493458992184788043"],
+  ["/Users/richardzandi/kleene2/Kleene2/RobustFlipper.lean",
+   "9161297636929632893"]],
+ "depHash": "17623956299904421017"}

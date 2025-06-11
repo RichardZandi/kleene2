@@ -1,0 +1,27 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=/Users/richardzandi/kleene2/.lake/packages/Cli/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/batteries/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/Qq/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/aesop/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/proofwidgets/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/importGraph/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/plausible/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/mathlib/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/packages/godelnumbering/.lake/build/lib/lean:/Users/richardzandi/kleene2/.lake/build/lib/lean /Users/richardzandi/.elan/toolchains/leanprover--lean4---v4.20.0/bin/lean -DautoImplicit=false /Users/richardzandi/kleene2/Kleene2/KleeneFix.lean -R /Users/richardzandi/kleene2 -o /Users/richardzandi/kleene2/.lake/build/lib/lean/Kleene2/KleeneFix.olean -i /Users/richardzandi/kleene2/.lake/build/lib/lean/Kleene2/KleeneFix.ilean -c /Users/richardzandi/kleene2/.lake/build/ir/Kleene2/KleeneFix.c --json",
+   "level": "trace"},
+  {"message":
+   "/Users/richardzandi/kleene2/Kleene2/KleeneFix.lean:80:0: -- Found 0 errors in 5 declarations (plus 5 automatically generated ones) in the current file with 15 linters\n\n\n-- All linting checks passed!",
+   "level": "info"}],
+ "inputs":
+ [["Kleene2.KleeneFix:deps",
+   [["deps",
+     [["Kleene2/Kleene2:extraDep", [["@Kleene2:extraDep", "1723"]]],
+      ["import oleans",
+       [["Mathlib.Computability.PartrecCode:olean",
+         [["Mathlib.Computability.PartrecCode:deps", "11606261439754175653"],
+          ["/Users/richardzandi/kleene2/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/Computability/PartrecCode.olean",
+           "14567505937562371066"]]]]]]],
+    ["libs",
+     [["import dynlibs", "1723"],
+      ["package external libraries", "1723"],
+      ["module dynlibs", "1723"],
+      ["module plugins", "1723"]]]]],
+  ["Lean 4.20.0, commit 77cfc4d1a4f6ef6651792b781eaa6676b4f3f060",
+   "16311077432335102250"],
+  ["Module.leanArgs: #[-DautoImplicit=false]", "9493458992184788043"],
+  ["/Users/richardzandi/kleene2/Kleene2/KleeneFix.lean",
+   "12551957906313527201"]],
+ "depHash": "3230251708049752704"}

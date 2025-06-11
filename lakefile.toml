@@ -1,0 +1,10 @@
+name = "kleene2"
+version = "0.1.0"
+defaultTargets = ["kleene2"]
+
+[[lean_lib]]
+name = "Kleene2"
+
+[[lean_exe]]
+name = "kleene2"
+root = "Main"
